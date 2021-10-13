@@ -45,7 +45,7 @@ p {
     text-align: center;
     color: white;
     font-size: 14px;
-    min-height: 4rem;
+    /* min-height: 4rem; */
     margin-bottom: 1rem;
     box-shadow: 0 .5rem #dc6669;
     font-weight: 300;
@@ -82,7 +82,7 @@ input {
 
 }
 
-button {
+button.btn-lg {
     background-color: var(--green) !important;
     color: white;
     border: none;
@@ -160,4 +160,22 @@ input.warning {
 
 .empty {
     display: none;
+}
+
+button[type=button].toast-btn {
+    position: static;
+    background-color: #0d6efd !important;
+}
+button[type=button].toast-btn:hover {
+    background-color: #0a58ca !important;
+}
+#close-btn {
+    background-color: #6c757d !important;
+}
+#close-btn:hover {
+    background-color: #5c636a !important;
+}
+.toast-link, .toast-link:hover, .toast-link:active, .toast-link:link, .toast-link:visited {
+    text-decoration: none;
+    color: #ffffff;
 }
